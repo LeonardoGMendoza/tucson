@@ -1,0 +1,21 @@
+    select.tc_select {
+        width:10%;
+        margin:2px;
+        font-size: 10px;
+    }    
+    label.tc_select{
+        width:7%;
+        text-align: right;
+        font-size: small;
+    }
+    TR.odd TD{
+        background-color:azure;
+        font-size: 10px;
+    }
+    TR.even TD{
+        font-size: 10px;
+    }
+
+    .table-primary {
+        background-color:cadetblue;
+    }

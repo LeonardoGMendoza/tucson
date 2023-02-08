@@ -1,0 +1,886 @@
+
+
+body{
+    background:  #EFF5F5;
+    
+}
+.dashboarContenedor{
+    width: 100%;
+
+      
+};
+
+h4{
+    margin-left: 30px;
+}
+
+
+#dashboard{
+    margin-left: 20px;
+}
+
+
+
+
+
+.logo a{
+    height: 80px;
+    width: 40%;
+}
+
+
+
+.containerMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+#imagenPrincipal{
+    background-image: url(./img/logoTucsonBlue.jpg);
+    max-width: 100%;
+};
+
+
+
+#titulo{
+    margin:0px auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#imagenIngresar{
+    height: 90px;
+    margin-left: 145px;
+}
+
+#imagenRegistro{
+    height: 40%;
+}
+.contenedorMenu{
+    display: flex;
+   
+     margin-left: 20px;
+     margin-top: 60px;
+    
+     
+}
+
+
+.img-registro{
+height: 220%;
+margin: 0 40px 30px;
+margin-bottom: 40px;
+
+
+}
+
+
+#tituloProducto{
+    margin:0px auto;
+    width: 200px;
+    margin-top: 20px;
+}
+#imagenCandado{
+    margin-left: 100px;
+    
+}
+
+
+
+.imagen{
+    width: 80px;
+}
+
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+#qrcode{
+    width: 40px;
+}
+
+
+
+
+
+.iconFooter{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #d8e2dc;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.datos_cliente{
+    flex-direction:column;
+}
+
+.imagen20 {
+    width:80px;
+} 
+
+.input-group{
+    height: 20px;
+    padding: 20px;
+    
+}
+
+
+
+.img-fluid{
+    max-width: 100%;
+    height:50%
+}
+
+#bgLogin{
+    background:#161a17;   
+   height: 500px;
+}
+
+
+
+#bgRegistro{
+    background: #473C33;    
+}
+
+#containerLogin{
+    background: #D8D9CF; 
+}
+
+
+.btnMenu{
+    border: 3px solid rgba(100,100,100,0.1);
+    padding: 20px;
+    width: 300px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color:#2C3333;
+    background-size: 300%;
+    background-image: -moz-linear-gradient(to left, #00b7DA,#161569,#00B7DA);
+}
+.btnMenu i{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.btnMenu{
+    color: aliceblue;
+   
+}
+.btnMenu:hover{
+    left: -2.5%;
+    color:#161a17;
+}
+
+
+.modal-content {
+    margin-bottom: 40px;
+}
+
+#modalBody{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+#modalBody button{
+    margin: 30px;
+    height: 50px;
+    background: #EDEDED;
+}
+
+#modalFooter{
+    height: 40px;
+}
+
+
+
+.modal-body img{
+    justify-content: center;
+    padding: 10px;
+    margin-left: 30px;
+    
+}
+
+
+.modal-body{
+    background: #393E46;
+    
+}
+
+.modal-title{
+    font-family:'Roboto Mono', monospace;  
+    color: #181818;  
+}
+
+.modal-body p{
+    margin-left: 40px;
+    text-decoration: none;
+    
+   
+}
+.modal-body img{
+    margin-right: 50px;
+    text-decoration: none;
+   
+    
+}
+.card-img-top{
+   color: aliceblue;
+   margin-left: 30px;
+}
+
+
+.modal-footer{
+    margin-bottom: 30px;
+}
+
+#nuevoImg{
+    color: #5F7161;
+    margin-right: 30px;
+    height: 50px;
+    width: 50px;
+    
+   
+}
+
+#nuevoImg2{
+    height: 70px;
+    width: 70px;
+}
+
+
+.link p{
+    color: #4f5351; 
+   font-family:'Roboto Mono', monospace;  
+   margin-top: 10px;
+   
+   
+}
+.linkSalida p{
+    color: #4f5351; 
+    font-family:'Roboto Mono', monospace;  
+    margin-top: 10px;
+}
+
+.input-group-text{
+    background: #4B7BE5;
+    
+}
+
+#bgLogin{
+    background:#4B7BE5 ;
+    height: 33px;
+    width: 45px;
+    
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto Mono', monospace;   
+}
+
+#username{
+    width: 120px;
+    height: 40px;
+}
+
+#password{
+    width: 120px;
+    height: 40px;
+}
+
+#basic-addon1{
+    height: 40px;
+    padding: 10px;
+    width: 45px;
+}
+
+#basic-addon1 i{
+  margin-top: 10px;
+}
+
+
+
+
+#validationCustom01{
+width: 300px;
+margin-bottom: 20px;
+
+}
+
+#validationCustom02{
+    width: 300px;
+}
+
+
+
+#validationCheck{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#btnLogin{
+display: flex;
+justify-content: center;
+}
+
+
+
+.inputRegister{
+    width: 500px;
+}
+
+.img-fluid2{
+    margin-left: 40px;
+}
+
+
+.nav-link{
+    font-family:'Roboto Mono', monospace;  
+    font-size: 20px; 
+    color:#ffffff;
+}
+
+.nav-link i{
+    font-size: 25px;
+    
+}
+
+.navbar-brand{
+    font-family:'Roboto Mono', monospace;  
+    font-size: 25px;  
+    color:#ffffff;  
+}
+
+.fecha_registro{
+    margin-left: 175px;
+}
+
+
+.tituloEntrada{
+    margin-top: 20px;
+    margin-left: 135px;
+    font-family: 'Roboto Mono', monospace;
+    color:#282A3A;
+}
+
+
+
+#registro_usuario{
+    margin-left: 20px;
+}
+
+.card{
+    border: 3px solid rgba(100,100,100,0.1);
+    padding: 20px;
+    width: 300px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    
+    cursor: pointer;
+    color: whitesmoke;
+    background-size: 300%;
+    background-image: -moz-linear-gradient(to left, #00b7DA,#161569,#00B7DA);  
+     
+}
+
+
+
+
+
+.card-img-top{
+    margin-left: 27px;
+   
+}
+
+.card-body{
+    margin-left: 18px;
+    height: 25px;
+    padding: 10px;
+}
+
+.cardNew{
+    margin-left: 50px;
+    height: 210px;
+    width: 240px;
+   background: #FFE15D;
+   border-radius: 5px;
+   
+}
+
+.cardNew img{
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+.cardNew:hover{
+box-shadow: 20px 20px 80px -44px #000;
+transition: .5s ease-in-out;
+cursor: pointer;
+}
+
+
+
+
+.subcard {
+    width:150px;
+    height:150px;
+    padding:10px
+}
+
+
+
+.soporte{
+    display: flex;
+    justify-content: start;
+    height: 60px;
+    cursor: pointer;
+    position: fixed;
+    
+   
+}
+
+
+
+.contenedorImg{
+    height:70px;
+    margin: 0,100px,0,100px;
+}
+.contenedorSoporte{
+    display: flex;
+    justify-content: start;
+    margin-left: 100%;
+    margin-top: 30px;
+}
+
+.container{
+    height: 100px;
+    
+    
+}
+.containerMenu{
+    display: flex;
+    justify-content: space-around ;
+    margin-top: 30px;
+}
+
+.containerSalida{
+    height: 100px;
+   
+}
+.contenedorComprobante{
+    margin-right: 80px;
+}
+
+.container2{
+    background: #d8d9cf;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+   
+}
+
+
+.contenedorLogin{
+    height: 60px;
+}
+
+
+
+.fa-solid {
+    
+    height: 20px; 
+    width: 45px;
+    margin-bottom: 5px;
+}
+
+#arrow{
+    color:#9CB4CC;
+   margin-left: 200px;
+   margin-right: 165px;
+   font-size: 30px;
+   width: 30px;
+  
+}
+
+
+#contenedorBuscar i{
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 10px;
+}
+
+#buscarCliente i{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+#buscarArticulos i{
+    position: absolute; 
+    margin-top: 35px;
+    margin-left: 115px;  
+    cursor: pointer;
+}
+
+#origen{
+    margin-left: 105px;
+}
+
+.total{
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+.containerSalida2{
+    margin-left: 100px;
+}
+
+.inputFlecha i{
+font-size: 30px;
+margin-left: 390px;
+}
+
+#floatingTextarea{
+    margin-right: 80px;  
+    
+}
+
+.form-floating{
+    margin-right: 40px;
+}
+#contenedorGuardar i{
+    
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 25px;
+    color:#2C3333
+
+    
+}
+
+#contenedorGuardar{
+    margin-top: 60px;
+}
+
+#contenedorObservaciones{
+    margin-top: 50px;
+}
+
+#botonCargar{
+    height: 40px;
+    padding: 20px;
+    width: 140px;
+    background: #4B7BE5;
+
+}
+
+#navBar{
+    background: #393E46;
+}
+
+#bgFooter{
+    background: #393E46; 
+    height: 90px;  
+}
+
+.homeBg{
+    background-color:#EFF5F5;
+   
+}
+
+#bgfooterLogin{
+    background: #393E46;  
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+
+}
+
+
+
+#bgHome{
+    margin-top: 90px;
+}
+
+.tituloLogo{
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 20px;
+}
+
+.form-label{
+    color:#161a17;
+    
+}
+
+
+
+#contenedorRegistro {
+    background: #161a17;
+}
+
+#tituloRegistro{
+    color: #161a17;
+    font-size: 60PX;
+}
+
+#botoRegistro{
+    color: #161a17;
+    
+}
+
+
+#contenedorLogin2{
+    background: #576F72;
+}
+
+#contenedorCheck{
+    margin-left: 200px;
+}
+
+
+
+
+#prueba{
+   background-size:50% #d8d9cf; 
+}
+    
+    
+
+
+.card-img-topUser{
+    margin-left: 40px;
+}
+
+.card-img-topMain{
+    margin-left: 80px;
+}
+
+.form-label{
+    display: block;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.formulario_grupo-input{
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.formulario_input-error{
+    font-size: 12px;
+    margin-bottom: 0px;
+    display: none;
+}
+
+.formulario_input-error-activo{
+    display: block;
+}
+
+.formulario_validacion-estado{
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    z-index: 100;
+    opacity:0;
+    
+}
+
+
+
+.formulario_mensaje{
+    height: 45px;
+    line-height: 45px;
+    background: #f66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    width: 75%;
+    display:none;
+}
+
+.formulario_mensaje-activo{
+    display:block;
+}
+
+.formulario_mensaje p{
+    margin: 0;
+}
+
+.loginPrueba p{
+
+    margin-left: 280px;
+    font-size: 16px;
+    color: #119200;
+    display: none;
+}
+
+
+
+.loginPrueba_p-activo{
+display: block;
+}
+
+.formulario_grupo-correcto .formulario_validacion-estado{
+    color: #1ed12d;
+    opacity: 1;
+
+}
+
+.formulario_grupo-incorrecto .form-label{
+color:#E64848;
+}
+
+.formulario_grupo-incorrecto .formulario_validacion-estado {
+    color:#E64848;
+    opacity: 1;
+    }
+
+
+    .formulario_grupo-incorrecto .form-control{
+border: 3px solid #E64848;
+    } 
+
+
+    @media screen and (max-width: 800px) {
+       .formulario{
+        grid-template-columns:1fr;
+       } 
+
+.formulario_grupo-terminos,
+.formulario_mensaje,
+.formulario_grupo-btn-enviar{
+    grid-column: 1;
+}
+
+    }
+
+.formulario_btn{
+    width: 100%;
+}
+
+.loginPrueba{
+    font-family: 'Roboto Mono', monospace; 
+    
+}
+
+
+#btnEnviar{
+    width: 400px;
+    margin-left: 10px;
+}
+
+#factura{
+    height: 800%;
+    width: 500px;
+}
+
+
+#agregar{
+color: #119200;
+cursor: pointer;
+font-size: 25px;
+
+}
+#modificar{
+    color: #FD841F;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+#eliminar{
+    color:#CC3636;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#guardar{
+    font-size: 30px;
+    color: black;
+}
+
+.containerIcons i{
+    display: flex;
+    justify-content: space-around;
+}
+
+#griferia{
+    margin-top: 0;
+}
+#input_listar{
+    height: 40px;
+}
+
+#fechaRegistro{
+    width: 365px;
+}
+
+#containerBoton{
+    margin-right: 30px;
+}
+
+#login{
+    background: #393E46;
+}
+
+
+
+#iconoInventario i{
+    font-size:  100px;
+    margin-left: 60px;
+    margin-top: 10px; 
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+

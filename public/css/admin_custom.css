@@ -1,0 +1,282 @@
+.container {
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+
+
+
+}
+
+.card-body i {
+    display: flex;
+    font-size: 35px;
+    color: #222831;
+    justify-content: left;
+    cursor: pointer;
+
+}
+
+.iconUsuario i {
+    font-size: 60px;
+    margin-left: 70px;
+}
+
+.inventario_img i {
+    font-size: 100px;
+
+}
+
+#header {
+    color: #413F42;
+
+}
+
+#bodyUsuario {
+    height: 115px;
+    background: #FF6E31;
+    border-radius: 5px;
+
+}
+
+#bodyVentas {
+    height: 115px;
+    background: #00E7FF;
+}
+
+#bodyInventario {
+    height: 115px;
+    background: #FFD24C;
+}
+
+#bodyLogistica {
+    height: 115px;
+    background: #937DC2;
+}
+
+#bodyOperaciones {
+    height: 115px;
+    background: #2192FF;
+}
+
+#bodyDashboard {
+    height: 115px;
+    background: #7DCE13;
+}
+
+.card {
+color:#222831;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px;
+}
+
+#bodyListar{
+   
+    padding: 40px;
+    background: #FF6E31;
+    
+}
+
+#bodyListar i{
+    font-size: 35px;
+    margin-right: 120px;
+    
+}
+
+#bodyCrear{
+    padding: 36px;
+    background: #FF6E31;
+    
+}
+
+
+
+#bodyRol{
+    padding: 40px;
+    background: #FF6E31;
+    
+}
+
+#bodyRol i{
+    font-size: 35px;
+    margin-right: 120px;
+    
+}
+
+#bodyCrear i{
+    font-size: 45px;
+    margin-right: 120px;
+    
+}
+
+#bodyNuevo{
+    padding: 35px;
+    background: #00E7FF;
+}
+
+#bodyNuevo i{
+    font-size: 45px;
+    margin-right: 120px;
+}
+
+#bodyFacturar{
+    padding: 35px;
+    background: #00E7FF;
+}
+
+#bodyFacturar i{
+    font-size: 45px;
+    margin-right: 120px;
+}
+
+#bodyBuscar{
+    padding: 35px;
+    background: #00E7FF;
+    
+}
+#bodyBuscar img{
+    height: 40px;
+    width: 50px;
+    margin-right: 120px;
+}
+
+#bodyBuscar i{
+    font-size: 40px;
+    margin-right: 140px;
+}
+
+
+
+#bodyReportes{
+    padding: 35px;
+    background: #00E7FF;
+}
+
+#bodyReportes i{
+    font-size: 45px;
+    margin-right: 120px;
+}
+
+#ventas{
+display: flex;
+justify-content: flex-start;
+margin-bottom: 80px;
+}
+
+.iconUsuario img{
+    height: 60px;
+    margin-left: 65px;
+    
+}
+
+.iconVentas img{
+    height: 60px;
+    margin-left: 40px;
+    
+}
+.iconUsuario p{
+    height: 40px;
+    margin-left: 55px;
+}
+
+.iconVentas p{
+    height: 40px;
+    margin-left: 55px;
+}
+
+.iconPrincipal img{
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.iconPrincipal i{
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.iconPrincipalInventario{
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.iconPrincipalInventario p{
+  font-size: 20px;
+  
+}
+
+.iconPrincipalInventario i{
+    font-size: 20px;
+    margin-left: 60px;
+    
+  }
+
+.iconPrincipal p{
+    height: 60px;
+    margin-left: 40px;
+}
+
+.container{
+    
+    height: 100px;
+    margin-bottom: 40px
+}
+
+#bgRegistro{
+    padding: 100px;
+    background: #D8D9CF;   
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
+#emailRegistro i{
+position: absolute;
+margin-bottom: 90px;
+}
+
+.container_formulario{
+    height: 60px;
+    
+}
+
+
+.containerUsuario{
+    display: flex;
+    margin-top: 100px;
+   margin-left: 80px;
+  
+} 
+
+#tituloRegistro{
+    font-size: 30px;
+}
+
+.modal-body p{
+    color: #D8D9CF;
+    
+}
+
+
+
+#contenedorPrincipal{
+    display: flex;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
